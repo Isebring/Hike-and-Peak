@@ -48,7 +48,7 @@ const useStyles = createStyles((theme) => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     height: '100%',
-    background: '#1564BF',
+    background: '#F5F5FA',
   },
 
   links: {
@@ -69,12 +69,13 @@ const useStyles = createStyles((theme) => ({
     padding: `${rem(8)} ${rem(12)}`,
     borderRadius: theme.radius.sm,
     textDecoration: 'none',
-    color: '#FFFF',
+    color: '#000000',
     fontSize: theme.fontSizes.sm,
     fontWeight: 600,
 
     '&:hover': {
       backgroundColor: '#BF7015',
+      color: '#FFFF',
     },
 
     [theme.fn.smallerThan('sm')]: {
@@ -174,7 +175,7 @@ export function Navbar({ links }: NavbarProps) {
             <img
               alt="Logo of Hike and Peak"
               src={logo}
-              width="190"
+              width="192"
               height="54"
             ></img>
           </Link>
