@@ -1,5 +1,7 @@
+import { Box } from '@mantine/core';
+
 function App() {
-  return <h1>Hike and Peak</h1>;
+  return <Box>Hike and Peak</Box>;
 }
 
 export default App;
