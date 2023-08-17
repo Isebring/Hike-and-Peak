@@ -1,7 +1,7 @@
-import { Box } from '@mantine/core';
+import { Title } from '@mantine/core';
 
 function App() {
-  return <Box>Hike and Peak</Box>;
+  return <Title>Hike and Peak</Title>;
 }
 
 export default App;
