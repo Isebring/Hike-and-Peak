@@ -84,12 +84,7 @@ function Herosection() {
           <Box className={classes.content}>
             <Title className={classes.title}>
               We are{' '}
-              <Text
-                component="span"
-                inherit
-                variant="gradient"
-                gradient={{ from: 'cyan', to: 'blue' }}
-              >
+              <Text component="span" inherit color="#BF7015">
                 one
               </Text>{' '}
               with nature
@@ -100,8 +95,7 @@ function Herosection() {
             </Text>
             <Link to="/about">
               <Button
-                variant="gradient"
-                gradient={{ from: 'cyan', to: 'blue' }}
+                sx={{ background: '#1564BF' }}
                 size="lg"
                 className={classes.cta}
                 mt={40}
