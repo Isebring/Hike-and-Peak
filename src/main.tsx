@@ -10,6 +10,7 @@ import {
 import App from './App';
 import './main.css';
 import Aboutpage from './pages/Aboutpage';
+import Contactpage from './pages/Contactpage';
 import Homepage from './pages/Homepage';
 
 const router = createBrowserRouter(
@@ -17,7 +18,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route index element={<Homepage />} />
       <Route path="/about" element={<Aboutpage />} />
-      <Route path="/contact" />
+      <Route path="/contact" element={<Contactpage />} />
     </Route>
   )
 );
