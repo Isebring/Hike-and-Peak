@@ -24,8 +24,8 @@ function Products({ product }: { product: Product }) {
               style={{ display: 'flex', justifyContent: 'space-between' }}
             >
               <Text sx={{ fontSize: '24px' }}>{product.title}</Text>
-              <Badge color="blue" variant="light" size="lg">
-                New!
+              <Badge sx={{ background: '#BF7015', color: 'white' }} size="lg">
+                Recommended!
               </Badge>
             </Group>
             <List>
@@ -37,11 +37,16 @@ function Products({ product }: { product: Product }) {
           </Box>
         </Card.Section>
         <Group position="left" mt="md" mb="xs">
-          <Button variant="outline" mt="md" radius="md">
-            Buy now
-          </Button>
-          <Button variant="light" mt="md" radius="md">
+          <Button sx={{ background: '#1564BF' }} mt="md" radius="md">
             Add to cart
+          </Button>
+          <Button
+            sx={{ color: '#1564BF' }}
+            variant="outline"
+            mt="md"
+            radius="md"
+          >
+            Buy now
           </Button>
           <Text
             sx={{ marginLeft: 'auto', marginTop: '.5rem', fontSize: '21px' }}
