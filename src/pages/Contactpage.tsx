@@ -1,5 +1,6 @@
 import { Box, Container, Text, Title } from '@mantine/core';
 import Contact from '../components/Contact';
+import { Faq } from '../components/Faq';
 
 function Contactpage() {
   return (
@@ -22,6 +23,7 @@ function Contactpage() {
           <a href="tel:00000000">call us at +46123456789</a>
         </Text>
         <Contact />
+        <Faq />
       </Box>
     </Container>
   );
