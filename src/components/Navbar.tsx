@@ -36,7 +36,7 @@ const useStyles = createStyles((theme) => ({
     borderTopLeftRadius: 0,
     borderTopWidth: 0,
     overflow: 'hidden',
-    background: '#070B2F',
+    background: '#F5F5FA',
 
     [theme.fn.largerThan('sm')]: {
       display: 'none',
