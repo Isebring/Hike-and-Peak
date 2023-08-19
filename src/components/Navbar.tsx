@@ -9,6 +9,7 @@ import {
   rem,
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
+import { IconShoppingBag } from '@tabler/icons-react';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import logo from '../assets/imgs/logo.png';
@@ -182,8 +183,14 @@ export function Navbar({ links }: NavbarProps) {
         </Group>
         <Group onClick={scrollBackToTop} spacing={5} className={classes.links}>
           {items}
+          <IconShoppingBag style={{ marginLeft: '1rem' }} stroke={1} />
         </Group>
 
+        <IconShoppingBag
+          className={classes.burger}
+          style={{ marginRight: '0.5rem' }}
+          stroke={1}
+        />
         <Burger
           color="black"
           opened={opened}
