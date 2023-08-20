@@ -76,14 +76,14 @@ function About() {
               of <br />
               passion for hiking
             </Title>
-            <Text mt="md">
+            <Text sx={{ fontSize: '14px' }} mt="md">
               Hike and Peak was born out of a shared passion for the great
               outdoors and a desire to equip adventurers with the finest hiking
               gear. Founded by a group of avid hikers, Hike and Peak aims to be
               the go-to destination for outdoor enthusiasts seeking high-quality
               equipment that can withstand the rigors of nature.
             </Text>
-            <Text mt="md">
+            <Text sx={{ fontSize: '14px' }} mt="md">
               With a deep understanding of the challenges faced by hikers, Hike
               and Peak curates a meticulously selected collection of hiking
               equipment, ranging from sturdy backpacks and durable footwear to

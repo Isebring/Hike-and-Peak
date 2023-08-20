@@ -50,7 +50,7 @@ const useStyles = createStyles((theme) => ({
     fontWeight: 700,
     lineHeight: 1.05,
     maxWidth: rem(500),
-    fontSize: rem(48),
+    fontSize: rem(44),
 
     [theme.fn.smallerThan('md')]: {
       maxWidth: '100%',
@@ -63,6 +63,7 @@ const useStyles = createStyles((theme) => ({
     color: theme.white,
     opacity: 0.9,
     maxWidth: rem(500),
+    fontSize: '14px',
 
     [theme.fn.smallerThan('md')]: {
       maxWidth: '100%',

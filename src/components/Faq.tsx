@@ -9,7 +9,7 @@ const useStyles = createStyles((theme) => ({
 
   title: {
     marginBottom: `calc(${theme.spacing.xl} * 1.5)`,
-    fontSize: '28px',
+    fontSize: '24px',
   },
 
   item: {

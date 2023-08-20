@@ -24,14 +24,19 @@ function Products({ product }: { product: Product }) {
               style={{ display: 'flex', justifyContent: 'space-between' }}
             >
               <Text sx={{ fontSize: '24px' }}>{product.title}</Text>
-              <Badge sx={{ background: '#BF7015', color: 'white' }} size="lg">
+              <Badge
+                sx={{ fontSize: '14px', background: '#BF7015', color: 'white' }}
+                size="lg"
+              >
                 Recommended!
               </Badge>
             </Group>
             <List>
               {Array.isArray(product.summary) &&
                 product.summary.map((item) => (
-                  <List.Item key={item}>{item}</List.Item>
+                  <List.Item style={{ fontSize: '14px' }} key={item}>
+                    {item}
+                  </List.Item>
                 ))}
             </List>
           </Box>

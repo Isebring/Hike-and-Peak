@@ -8,7 +8,7 @@ function Homepage() {
     <Box>
       <Herosection />
       <Title
-        sx={{ fontSize: '48px', marginTop: '5rem', marginBottom: '2rem' }}
+        sx={{ fontSize: '44px', marginTop: '5rem', marginBottom: '2rem' }}
         ta="center"
       >
         Popular products
