@@ -10,3 +10,7 @@ Open the terminal and run these commands:
 
 - `npm install`
 - `npm run dev`
+
+## Live link
+
+Check it out here [here 🌄](https://hikeandpeak.netlify.app/)
